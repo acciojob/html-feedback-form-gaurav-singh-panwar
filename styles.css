@@ -1,2 +1,23 @@
 
 /* Your CSS Code here. */
+form {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+input {
+  width: 200px;
+}
+
+label {
+  display: block;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+input.error {
+  border-color: red;
+}
